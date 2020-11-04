@@ -525,6 +525,12 @@ src_libdrivers_la_SOURCES += \
 	src/hardware/rohde-schwarz-sme-0x/protocol.c \
 	src/hardware/rohde-schwarz-sme-0x/api.c
 endif
+if HW_ETOMMENS_ETM_XXXXP
+src_libdrivers_la_SOURCES += \
+	src/hardware/etommens-etm-xxxxp/protocol.h \
+	src/hardware/etommens-etm-xxxxp/protocol.c \
+	src/hardware/etommens-etm-xxxxp/api.c
+endif
 if HW_SALEAE_LOGIC16
 src_libdrivers_la_SOURCES += \
 	src/hardware/saleae-logic16/protocol.h \
