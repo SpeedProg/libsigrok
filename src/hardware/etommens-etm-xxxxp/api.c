@@ -51,6 +51,7 @@ static const uint32_t devopts[] = {
 static const struct etommens_etm_xxxxp_model supported_models[] = {
 	// class id 19280=KP and model 3010
 	{ 0x4B50, 3010, "eTM-3010P/RS310P/HM310P" },
+	{ 0x4B50, 305, "eTM-305P/RS305P/HM305P" },
 };
 
 static struct sr_dev_inst *probe_device(struct sr_modbus_dev_inst *modbus)
